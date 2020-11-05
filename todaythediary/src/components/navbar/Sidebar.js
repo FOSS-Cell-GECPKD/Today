@@ -10,7 +10,7 @@ import './Navbar.css';
 import { IconContext } from 'react-icons';
 const Sidebar = (props) => {
     return (
-        <div className="d-flex flex-column col-2 sidebar "  >
+        <div className="d-flex flex-column col-2  sidebar "  >
             <IconContext.Provider value={{ color: '#fff' }}>
                 <div className='navbar-toggle' onClick={props.onClick}>
                     <Link to='#' className='menu-bars'>

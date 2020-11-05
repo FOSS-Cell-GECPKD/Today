@@ -2,12 +2,15 @@ body {
   overflow: hidden;
 }
 .sidebar {
-  opacity: 0.9;
   position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
   align-items: center;
   height: 100vh;
   background-color: #212529;
   transition: 350ms;
+  z-index: 1000;
 }
 .mainbar {
   height: 6rem !important;

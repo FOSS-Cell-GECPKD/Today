@@ -1,5 +1,5 @@
 import React from 'react'
-import Bar from './navbar/Bar'
+import NavBar from './navbar/NavBar'
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 
@@ -7,7 +7,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 export const Main = () => {
     return (
         <div>
-            <Bar />
+            <NavBar />
             <Switch>
                 <Route path='/home' />
                 <Route path='/todo' />
