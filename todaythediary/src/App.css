@@ -1,0 +1,39 @@
+body {
+  overflow: hidden;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  align-items: center;
+  height: 100vh;
+  background-color: #212529;
+  transition: 350ms;
+  z-index: 1000;
+}
+.mainbar {
+  height: 6rem !important;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+.display-4 {
+  font-size: 2rem !important;
+}
+.display-head {
+  font-size: 4.2rem;
+}
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.showtext {
+  margin: 1.6rem 1rem 1rem 2.5rem;
+}
+.mt-7 {
+  margin-top: 8rem;
+}
