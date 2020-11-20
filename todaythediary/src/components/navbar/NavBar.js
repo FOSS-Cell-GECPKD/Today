@@ -12,15 +12,15 @@ const NavBar = () => {
     const showSidebar = () => setSidebar(!sidebar);
     return (
         <Fragment>
-            <IconContext.Provider value={{ color: '#fff' }}>
-                <div className="conatiner col-12 mainbar bg-primary d-flex ml-auto">
-                    <div className={sidebar ? 'd-none' : 'navbar'} >
-                        <Link to='#' className='menu-bars'>
+            <IconContext.Provider value={{ color: '#fff'}}>
+                <div className="conatiner col-12 mainbar bg-dark d-flex ml-auto">
+                    <div className={sidebar ? 'invisible' : 'navbar'} >
+                        <Link to='#' className='menu-bars ml-xs-0 ml-sm-1'>
                             <FaIcons.FaBars onClick={showSidebar} />
                         </Link>
                     </div>
-                    <h3 className="text-light showtext">How Was Today</h3>
-                    <DateTime />
+                    <h3 className="text-light showtext " style={{width: '500px', fontFamily:'Aladin'}} >Dear Diary</h3>
+                    <DateTime style={{fontSize: '140%', marginTop: "10px"}} />
                 </div>
                 {sidebar && <Sidebar onClick={showSidebar} />}
             </IconContext.Provider>
