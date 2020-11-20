@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: white;
+  color: black;
+  min-height: 100vh;
+}
+header {
+  font-size: 3rem;
+  font-style: oblique;
+  text-decoration: underline;
+  
+}
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: 2px solid black;
+  background: white;
+  border-radius: 10px 0px 0px 10px;
+  outline: none;
+}
+
+form button {
+  color: black;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  padding: 16px;
+  border-left: none;
+
+}
+form button:hover {
+  background: black;
+  color: white;
+  border-left: none;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background:rgb(221, 221, 221);
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.delete-btn,
+.complete-btn {
+  background: rgb(253, 86, 86);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.complete-btn {
+  background: rgb(11, 212, 162);
+}
+.todo-item {
+  padding: 0rem 0.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.completed {
+  font-style: italic;
+  text-decoration: line-through;
+  color: green;
+}
+
