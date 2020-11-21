@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 .navbar {
   height: 80px;
   justify-content: start;
   align-items: center;
+  padding: 0;
 }
 
 .menu-bars {
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-size: 2rem;
-  background: none;
+  background:none;
 }
 
 .nav-menu {
