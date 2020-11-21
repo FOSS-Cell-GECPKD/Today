@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './navbar/NavBar'
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Contact from './Essentials/Contact'
+import Contact from './Essentials/contact/Contact'
 
 
 export const Main = () => {
