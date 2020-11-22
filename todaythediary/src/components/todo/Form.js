@@ -6,17 +6,17 @@ const Form = ({inputText,setInputText, todos, setTodos}) =>{
     const inputTextHandler = (e) =>{
         setInputText(e.target.value);
     };
-    const [counter,setCounter] = useState(0);
-    const incrementer = ()=>{
-        setCounter((prev) =>prev +1);
+    const [count,setCount] = useState(0);
+    const incrementCount = ()=>{
+        setCount((prev) =>prev +1);
     };
     const submitTodoHandler =(e) =>{
         e.preventDefault();
-        incrementer();
-        setTodos([...todos, {text:inputText , completed: false, id:counter}])
+        incrementCount();
+        setTodos([...todos, {text:inputText , completed: false, id:count}])
         setInputText("");
-    };
-     
+    };   
+    
     return(
         <form>
             <input 
