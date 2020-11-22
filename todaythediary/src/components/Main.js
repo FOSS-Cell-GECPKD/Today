@@ -1,6 +1,8 @@
 import React from 'react'
 import NavBar from './navbar/NavBar'
 import { Switch, Route, Redirect } from 'react-router-dom';
+import DiaryPage from './diarypage/diary';
+
 import Todo from './todo/Todo';
 
 
@@ -13,6 +15,7 @@ export const Main = () => {
                 <Route path='/todo' component ={Todo} />
                 <Redirect to="/home" />
             </Switch>
+            <DiaryPage />
         </div>
     )
 }

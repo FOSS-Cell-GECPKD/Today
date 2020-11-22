@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Pacifico&display=swap');
+.content-bg{
+    background-image: url(./assets/stack-of-paper-1058406_1920.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diarynav{
+    font-family: 'Pacifico';
+    color: #000000;
+    padding-top: 2rem;
+}
+
+textarea{
+    width: 88%;
+    height: 55vh;
+    outline: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 170%;
+    background: transparent;
+    border: none;
+    text-align: justify;
+    padding: 0 1rem;
+    resize: none;
+}
+::placeholder{
+    opacity: 1;
+    color: black;
+}
+.react-icons{
+    font-size:150%;
+    margin-right: 14px;
+}
