@@ -4,7 +4,7 @@ const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sa
 const monthname = ["Jan", "Feb","Mar","Apr","May","Jun", "Jul","Aug","Sep","Oct", "Nov", "Dec"];
 const DateTime = () => {
     return (
-        <div div className="col-2 bg-light  text-center m-3 ml-auto" >
+        <div div className="col-md-3 col-sm-3 mr-1 ml-auto bg-dark  text-center text-white my-4 " style={{width: '800px'}}>
             <h4>{dt.toDateString()}</h4>
         </div >
     )
