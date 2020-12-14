@@ -1,7 +1,7 @@
-import './App.css';
-import Main from './components/Main'
-import { BrowserRouter } from 'react-router-dom';
-import { Fragment } from 'react';
+import "./App.css";
+import Main from "./components/Main";
+import { BrowserRouter } from "react-router-dom";
+import { Fragment } from "react";
 
 function App() {
   return (

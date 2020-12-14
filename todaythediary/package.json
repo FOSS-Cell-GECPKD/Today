@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
+    "formik": "^2.2.5",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-bootstrap-sidebar": "0.0.1",
@@ -15,10 +16,13 @@
     "react-html-id": "^0.1.5",
     "react-icons": "^3.11.0",
     "react-popper": "^0.9.2",
+    "react-redux": "^7.2.2",
+    "react-redux-form": "^1.16.14",
     "react-router-dom": "^4.3.1",
     "react-scripts": "4.0.0",
     "react-uuid": "^1.0.2",
     "reactstrap": "^5.0.0",
+    "redux": "^4.0.5",
     "uuid": "^8.3.1",
     "web-vitals": "^0.2.4"
   },
@@ -45,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/reactstrap": "^8.7.2"
   }
 }
