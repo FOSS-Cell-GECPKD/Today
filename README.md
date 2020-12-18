@@ -34,9 +34,3 @@ git clone https://github.com/FOSS-Cell-GECPKD/Today
 - [ ] Webpage Request
 - [ ] Database
 - [ ] Server
-
-
-
-
-
-
